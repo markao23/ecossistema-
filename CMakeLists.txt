@@ -9,7 +9,6 @@ add_executable(mini_claude_code
     src/main.cpp
     src/Mapa.cpp
     src/Animal.cpp
-    include/Genoma.h
     src/Genoma.cpp
 )
 
