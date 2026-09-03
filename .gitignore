@@ -1,0 +1,67 @@
+# Build artifacts
+/build/
+/build/*
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
+/compile_commands.json
+
+# Object files and executables
+*.o
+*.obj
+*.lo
+*.slo
+*.la
+*.al
+*.dll
+*.so
+*.dylib
+*.exe
+*.out
+*.elf
+
+# Static and dynamic libraries
+*.a
+*.lib
+
+# Coverage and profiling
+*.gcno
+*.gcda
+coverage/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*~
+*.swp
+*.bak
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.VC.db
+*.VC.opendb
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Python virtual envs (if present)
+.venv/
+venv/
+env/
+ENV/
+
+# CMake build directories sometimes created elsewhere
+cmake-build-*/
+
+# Misc
+/.vs/
+
