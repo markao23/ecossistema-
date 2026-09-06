@@ -13,6 +13,9 @@ public:
     void adicionarAnimal(std::shared_ptr<Animal> a);
     std::shared_ptr<Animal> buscarAnimal(int id);
     
+    const std::vector<std::shared_ptr<Animal>>& getAnimais() const {
+        return animais;
+    }
     void atualizarTurno();
     void exibir() const;
 };
